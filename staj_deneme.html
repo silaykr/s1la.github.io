@@ -1,0 +1,297 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.101.0">
+    <title>Atıksız Dünya</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/carousel/">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="staj.css">
+
+    <link href="/docs/5.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" href="/docs/5.2/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+    <link rel="icon" href="/docs/5.2/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="/docs/5.2/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+    <link rel="manifest" href="/docs/5.2/assets/img/favicons/manifest.json">
+    <link rel="mask-icon" href="/docs/5.2/assets/img/favicons/safari-pinned-tab.svg" color="#712cf9">
+    <link rel="icon" href="/docs/5.2/assets/img/favicons/favicon.ico">
+    <meta name="theme-color" content="#712cf9">
+
+
+
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+
+
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Bilgisayar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Anasayfa</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Daha fazlası</a>
+                        </li>
+                    </ul>
+
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="görseller/bilgisayar_bilesenleri_kategori.webp" width="450px" height="450px"  alt="none">
+
+
+                    <div class="container">
+                        <div class="carousel-caption text-start">
+
+                            <h1>Bilgisayar Parçaları</h1>
+                            <p>Donanımsal Bilgiler</p>
+                            <p><a id="button" class="btn btn-lg btn-primary" href="donanım.html">Daha Fazla Bilgi...</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <svg class="bd-placeholder-img" width="450px" height="450px" xmlns="https://resimyukle.io/r/i6Ojih2AmY"
+                        aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <rect width="450px" height="450px" fill="#777" />
+                    </svg>
+
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>Another example headline.</h1>
+                            <p>Some representative placeholder content for the second slide of the carousel.</p>
+                            <p><a id="button" class="btn btn-lg btn-primary" href="#">Galeri İçin Tıklayın</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <svg class="bd-placeholder-img" width="450px" height="450px" xmlns="http://www.w3.org/2000/svg"
+                        aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <rect width="450px" height="450px" fill="#777" />
+                    </svg>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+
+        <!-- Marketing messaging and featurettes
+  ================================================== -->
+        <!-- Wrap the rest of the page in another container to center all the content. -->
+
+        <div class="container marketing">
+
+            <!-- Three columns of text below the carousel -->
+
+
+
+            <!-- START THE FEATURETTES -->
+
+            <hr class="featurette-divider">
+
+            <div id="renkGecisi" class="row featurette">
+                <div bg-blue class="col-md-7">
+                    <hr>
+                    <h2 class="featurette-heading fw-normal lh-1">Bit, bayt ve boyut<span class="text-muted"></span>
+                    </h2>
+                    <hr>
+                    <p class="lead">Sahip olduğunuz 8 GB’lık eski müzik çalarınızın acınası kapasitesi için
+                        sızlanabilirsiniz fakat bu 8 GB’ın tamamının nelerden oluştuğunu biliyor musunuz? Bir bilgisayar
+                        bilimi mezunu; her bir gigabaytta 1024 megabayt, her bir megabaytta 1024 kilobayt ve her bir
+                        kilobaytta 1024 bayt olduğunu bilir. Bu birimlerin en alt seviyesi olan her bir baytta ise 8 bit
+                        bulunduğu da bilir. Peki, bunun ne önemi var? Çünkü bir USB bellekte 1 bitlik veri, her biri iki
+                        fiziksel iletkeni kapsayan, kendilerini 1 ya da 0 olarak kaydedebilen, 8 ayrı yüzeye sahip
+                        girişten oluşur. Daha da büyülenmek ister misiniz? Aslında her bir yüzey girişi Kuantum
+                        Mekaniğine dayanarak çalışmaktadır. Bu da şu demek oluyor; az önce küçümsediğiniz 8GB’lık bir
+                        müzik çalar, kabaca tahmin yürütmek gerekirse gövdesindeki ince alüminyum yapısında sıralanmış
+                        549.755.813.888 özel girişe sahiptir. Bu, gerçekten zekice düşünülmüş muazzam bir mühendislik
+                        göstergesidir.</p>
+                </div>
+                <div class="col-md-5">
+                    <title>Bit, bayt ve boyut</title>
+                    <img src="görseller/resim1.jpg" alt="plastik" id="plastik">
+
+
+                </div>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <div id="renkGecisi" class="row featurette">
+                <div class="col-md-7 order-md-2">
+                    <hr>
+                    <h2 class="featurette-heading fw-normal lh-1">İnternet üzerinde görüp duyduğunuz her şey aslında
+                        bilgisayarınızda bulunur <span class="text-muted">
+                        </span></h2>
+                    <hr>
+                    <p class="lead">Bilgisayar kurdu arkadaşlarınızın büyük çoğunluğu artık video kütüphanesine sahip
+                        olmanın 2008’lerde kalma bir iş olduğunu ve kimsenin torrent kullanmadığını, bunun yerine bulut
+                        hizmetleri gibi yöntemlerin kullanıldığını söyleyebilir. Ancak hatırlamak isterseniz: her bir
+                        videoyu ya da haftanın top 40’ını internetiniz kapalıyken yükleyebildiğiniz gibi, bilgisayarınız
+                        kapalıyken de oynatabilirsiniz. Anlaşıldığı üzere, öncelikle her bir internet medya dosyası
+                        bilgisayarınıza geçici dosya olarak kopyalanmış olur ve belirli bir zaman sonra silinir. Bir
+                        başka deyişle medya dosyasını, internetiniz olduğunda izleyebildiğiniz gibi internetiniz yokken
+                        de izlemeye devam edebileceğiniz anlamına gelmektedir.</p>
+                </div>
+                <div class="col-md-5">
+                    <title>İnternet üzerinde görüp duyduğunuz her şey aslında
+                        bilgisayarınızda bulunur</title>
+                    <img src="görseller/resim1.jpg" alt="plastik" id="plastik" width="450" height="450">
+
+
+                </div>
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div id="renkGecisi" class="row featurette">
+            <div class="col-md-7 order-md-2">
+                <hr>
+                <h2 class="featurette-heading fw-normal lh-1">Uzaktan veri almak <span class="text-muted">
+                    </span></h2>
+                <hr>
+                <p class="lead">İşte sizin için hızlı bir deney; sizi Wikipedia’ya yönlendiren bağlantıya tıklayın.
+                    Böylelikle tek bir tıklama ile kilometrelerce uzaklıktaki sunuculardan veri toplamanız mümkün olur.
+                    Bu aşamada isteğiniz; (yaklaşık olarak saniyenin 0,1’inde, tabii ki internet bağlantınızın
+                    kalitelisine bağlı olarak değişebilir) yerel bir Wi-Fi yönlendirici ya da modem aracılığıyla
+                    bilgisayarınızdan çıkıp, sunucuya gidip gelerek veri aktarımı tamamlanmış olur. Buna karşın, bir
+                    insan vücudunda sinyalin omurilikten beyine gidip gelmesi ise saniyenin 0.15’inde gerçekleşmektedir.
+                </p>
+            </div>
+            <div class="col-md-5">
+                <title>Uzaktan veri almak</title>
+                <img src="görseller/resim1.jpg" alt="plastik" id="plastik" width="450" height="450">
+
+
+            </div>
+        </div>
+        </div>
+
+
+        <hr class="featurette-divider">
+
+        <div id="renkGecisi" class="row featurette">
+            <div bg-blue class="col-md-7">
+                <hr>
+                <h2 class="featurette-heading fw-normal lh-1">Sayım sıfırdan başlar<span class="text-muted"></span>
+                </h2>
+                <hr>
+                <p class="lead">Temel düzeyde, her bilgisayar gerçekten büyük ve karmaşık bir hesap makinesidir. İç
+                    devrelerde her eylem ikili halde (1 ve 0 olarak) ve çok sayıda ‘açık’ ya da ‘kapalı’ küçük mantık
+                    geçitleri ile gerçekleşmektedir. Bu aslında, düzgün bir bite kadar ufak bir programlamayı çevirir.
+                    Fakat dünya bilgisayar biliminde tüm sayımlar (Fortran ve Visual Basic gibi oldukça önemli
+                    istisnalar dışında) 1’den değil 0’dan başlar.
+                    Bu durum başka çağrışımlara da sebep olmaktadır. Neden 20. yüzyıl 1900’leri işaret ediyor diye hiç
+                    düşündünüz mü? Çünkü tarihçiler, tarihleme sistemine karar verdiklerinde 1. yüzyıldan çok 0.
+                    yüzyılın üzerine düşünselerdi, dünya üzerinde kafası karışık öğrenci sayısı çok daha az olacaktı.
+                </p>
+            </div>
+            <div class="col-md-5">
+                <title>Sayım sıfırdan başlar</title>
+                <img src="görseller/resim1.jpg" alt="plastik" id="plastik">
+
+
+            </div>
+        </div>
+
+
+        <hr class="featurette-divider">
+
+        <div id="renkGecisi" class="row featurette">
+            <div bg-blue class="col-md-7">
+                <hr>
+                <h2 class="featurette-heading fw-normal lh-1"> Ctrl+C ve Ctrl+V incelemesi<span
+                        class="text-muted"></span>
+                </h2>
+                <hr>
+                <p class="lead">Sabit disk sürücüleri hakkında yeterince takdir edilmemiş olan bir gerçek vardır. Bu,
+                    hızlı ve güvenilir bir depolama için altın standardı kabul ederek yapmak zorunda oldukları kopyalama
+                    miktarıdır. Bazı verileri bir bitten diğerine kopyalamak istediğinizde bu sadece bir sürücüden
+                    diğerine veri sürükleme meselesi değildir. Nedeni ise sabit disk sürücülerinin karmaşık bir şekilde
+                    çalışmasıdır ki; bloklanmış eski bir verinin üstüne, daha büyük ve daha kalın kalem ile yeni bir şey
+                    yazmak, o kadar da basit değildir. Daha doğrusu depolama sürücüsü bazı karmaşıklıkları değiştirerek
+                    halletmek zorundadır. Bu, uygulamada şu anlama gelmektedir; 4 KB’lık küçük bir dosya yazmak, 2
+                    MB’lık bir okuma sürücüsü gerektirebilir( aynı zamanda binlerce kez 4KB’lık veri yazmak demektir).
+                    Şöyle ki işlemler, verileri geçici olarak depolamak, bir ton civarındaki bloklamanın tamamını silmek
+                    ve sonra verileri yeniden yazmak şeklinde gerçekleşmek durumundadır. Bu işlem de oldukça yoğun emek
+                    gerektirmektedir. O nedenle bir dahaki sefere dosyalarınızın yerini değiştirmeden önce iyi düşünün..
+                </p>
+            </div>
+            <div class="col-md-5">
+                <title>Ctrl+C ve Ctrl+V incelemesi</title>
+                <img src="görseller/ssd-vs-hdd.jpg" alt="plastik" id="plastik">
+
+
+            </div>
+        </div>
+
+
+
+
+
+        <!-- FOOTER -->
+        <footer class="container">
+            <p class="float-end"><a href="#">Back to top</a></p>
+        </footer>
+    </main>*/
+
+    <script src="/docs/5.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+        integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
